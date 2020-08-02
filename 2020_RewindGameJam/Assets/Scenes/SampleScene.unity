@@ -21623,6 +21623,7 @@ GameObject:
   - component: {fileID: 1734096338}
   - component: {fileID: 1734096337}
   - component: {fileID: 1734096336}
+  - component: {fileID: 1734096339}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -21667,7 +21668,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -107129787
-  m_SortingLayer: 5
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 021ae5525188a40eb97953517b12026e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -21749,6 +21750,25 @@ CapsuleCollider2D:
   m_Offset: {x: -0.33207238, y: -0.1149497}
   m_Size: {x: 1.0023963, y: 2.560585}
   m_Direction: 0
+--- !u!95 &1734096339
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734096333}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0a911ac02c44d4c69b2034528ac6e411, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1757864120
 GameObject:
   m_ObjectHideFlags: 0
@@ -21821,7 +21841,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1056559415
-  m_SortingLayer: 2
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.13999999, y: 0.13999999, z: 0}
